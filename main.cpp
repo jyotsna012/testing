@@ -7,6 +7,12 @@ int main() {
   cin >> x; // Get user input from the keyboard
   cout << "Your number is: " << x;
   int *A = new int[x];
+  A[0] = 1;
+  A[1] = 2;
+  A[2] = 3;
+  A[3] = 4;
+  A[4] = 5;
+  cout << "this is A1" << A[1] << endl;
   delete[] A;
   return 0;
 }
