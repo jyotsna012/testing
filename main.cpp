@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-  int x;
+  /*int x;
   cout << "Type a number: "; // Type a number and press enter
   cin >> x; // Get user input from the keyboard
   cout << "Your number is: " << x << endl;
@@ -13,6 +13,10 @@ int main() {
   A[3] = 4;
   A[4] = 5;
   cout << "this is A1: " << A[1] << endl;
-  delete[] A;
+  delete[] A;*/
+  
+  const int n = 10;
+  double a[n];
+  
   return 0;
 }
