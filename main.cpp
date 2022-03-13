@@ -14,7 +14,7 @@ int main() {
   A[4] = 5;
   cout << "this is A1: " << A[1] << endl;
   
-  int len = sizeof(arr)/sizeof(arr[0]);
+  int len = sizeof(A)/sizeof(A[0]);
   cout << "The length of the array is: " << len;
   
   delete[] A;
