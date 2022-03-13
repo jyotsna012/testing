@@ -12,7 +12,7 @@ int main() {
   A[2] = 3;
   A[3] = 4;
   A[4] = 5;
-  cout << "this is A1" << A[1] << endl;
+  cout << "this is A1: " << A[1] << endl;
   delete[] A;
   return 0;
 }
