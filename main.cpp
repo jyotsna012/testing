@@ -14,7 +14,7 @@ int main() {
   A[4] = 5;
   cout << "this is A1: " << A[1] << endl;*/
   
-  for (int i = 0; i < x; i++) {
+  for (int i = 0; i < x+1; i++) {
   A[i] = i;
   cout << A[i] << "\n";
   }
